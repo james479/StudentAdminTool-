@@ -1,1 +1,10 @@
 /* your styles go here */
+
+body {
+    padding-top: 0;
+}
+
+.page-content {
+    background: #22252a;
+    width: 100%;
+}

@@ -198,7 +198,11 @@ namespace ScheduleAdminTool.DATA.EF
     [MetadataType(typeof(StudentMetadata))]
     public partial class Student
     {
-
+        [Display(Name = "Name")]
+        public string FullName
+        {
+            get { return $"{FirstName} {LastName}"; }
+        }
     }
 
 

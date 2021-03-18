@@ -1,8 +1,6 @@
-﻿using Microsoft.Owin;
-using Owin;
+﻿using Owin;
 
-[assembly: OwinStartupAttribute(typeof(ScheduleAdminTool.UI.MVC.Startup))]
-namespace ScheduleAdminTool.UI.MVC
+namespace ScheduleAdminTool
 {
     public partial class Startup
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace ScheduleAdminTool.UI.MVC.Models
+namespace ScheduleAdminTool.Models
 {
     public class ExternalLoginConfirmationViewModel
     {
