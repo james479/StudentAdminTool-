@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1300
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleAdminTool.UI.MVC", "ScheduleAdminTool.UI.MVC\ScheduleAdminTool.UI.MVC.csproj", "{1462E463-70E3-41D8-AAE5-91E89F5869BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleAdminTool.DATA.EF", "ScheduleAdminTool.DATA.EF\ScheduleAdminTool.DATA.EF.csproj", "{313F27D6-5954-49FC-B80C-2ABC07585314}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1462E463-70E3-41D8-AAE5-91E89F5869BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1462E463-70E3-41D8-AAE5-91E89F5869BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1462E463-70E3-41D8-AAE5-91E89F5869BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313F27D6-5954-49FC-B80C-2ABC07585314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313F27D6-5954-49FC-B80C-2ABC07585314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313F27D6-5954-49FC-B80C-2ABC07585314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313F27D6-5954-49FC-B80C-2ABC07585314}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

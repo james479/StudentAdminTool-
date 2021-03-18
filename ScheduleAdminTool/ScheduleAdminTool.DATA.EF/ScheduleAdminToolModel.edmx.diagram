@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bc63d79ac1374d71af846d9ee3cb71db" Name="Diagram1">
+        <EntityTypeShape EntityType="StudentAdminToolModel.Cours" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentAdminToolModel.Enrollment" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentAdminToolModel.Instructor" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentAdminToolModel.ScheduledClass" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentAdminToolModel.ScheduledClassStatus" Width="1.75" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentAdminToolModel.Student" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentAdminToolModel.StudentStatus" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <AssociationConnector Association="StudentAdminToolModel.FK_ScheduledClasses_Courses" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentAdminToolModel.FK_Enrollments_ScheduledClasses" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentAdminToolModel.FK_Enrollments_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentAdminToolModel.FK_ScheduledClasses_Instructors" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentAdminToolModel.FK_ScheduledClasses_ScheduledClassStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentAdminToolModel.FK_Students_StudentStatuses" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
